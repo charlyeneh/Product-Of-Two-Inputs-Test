@@ -278,7 +278,11 @@ footer h2 {
 	}
 
 	.footer-ul > * {
-		font-size: 10px;
+		font-size: 8px;
+		margin-right: 0.5rem;
+		align-items: center;
+		justify-items: center;
+		justify-content: center;
 	}
 
 	footer h2 {
