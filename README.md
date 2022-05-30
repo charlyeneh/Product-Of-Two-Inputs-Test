@@ -1,1 +1,1 @@
-# Product-Of-Two-Inputs-Test
+# Sum-Of-Two-Inputs-Test
