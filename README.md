@@ -1,10 +1,12 @@
 # Sum-Of-Two-Inputs-Test
 
-![screenshot](./images/awses6.png)
+![screenshot](./images/desktop.png)
+![screenshot](./images/mobile.png)
 
-> Description of the project.
+> Description of the test.
 
-In this project, i restructured the Awesome books app code. The goal is to make it more organized by using modules. I also added in some ES6 syntax.
+I developed a simple html page with a navbar, footer and body.
+It also has a simple function written with vanilla JavaScript that takes an input of 2 numbers and returns a product of the two inputs. The function is written in such a way as not to allow an input that's not a number. I also wrote a jest test for the function.
 
 ## Built With
 
@@ -44,15 +46,13 @@ Install a packege manager - npm.
 
 ### Usage
 
-This App can be used to keep track record of the books in the book shelf. This is achievable by typing in the book name and the book author to get started and have them stored.
+This App can be used for simple multiplications task.
 
 ### Run tests
 
-Try using the App and confirm that all the functionalities are working, such as: 1. Using the Nav section to navigate through the various section of the app. 2. Using the add button to add some books. 3. Using the delete button to confirm that the delete function removes the requested books from the books array and from the local storage.
-
 ### Deployment
 
-This App was deployed using the github apps deployment. But you can use other options.
+This App was deployed using the github apps deployment.
 
 ## Author
 
@@ -60,7 +60,7 @@ This App was deployed using the github apps deployment. But you can use other op
 
 - GitHub: [@charlyeneh](https://github.com/charlyeneh)
 - Twitter: [@twitterhandle](https://twitter.com/ProgrammerBaby?s=09)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/charles-chukwunweike-eneh-5345a2147)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/charles-chukwunweike-eneh)
 
 ## 🤝 Contributing
 

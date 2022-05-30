@@ -14,43 +14,51 @@
 					<img src="./images/logo.jpeg" alt="Lloydant logo" class="nav-img" />
 				</div>
 				<div class="nav-right">
-					<a href="#Home" class="right_border" id="jump_to_home">Home</a>
-					<a href="#About" class="right_border" id="jump_to_about">About Us</a>
-					<a href="#Services" class="right_border" id="jump_to_services"
-						>Our Services</a
-					>
-					<a href="#Contact" class="right_border" id="jump_to_contact"
-						>Contact Us</a
-					>
+					<div class="nav-hide">
+						<ul class="nav-links">
+							<li class="lists">
+								<a href="#Home">Home</a>
+							</li>
+							<li class="lists">
+								<a href="#About">About Us</a>
+							</li>
+							<li class="lists">
+								<a href="#Services">Our Services</a>
+							</li>
+							<li class="lists">
+								<a href="#Contact">Contact Us</a>
+							</li>
+						</ul>
+					</div>
+					<div class="hamburger">
+						<div class="line1"></div>
+						<div class="line2"></div>
+						<div class="line3"></div>
+					</div>
 				</div>
 			</nav>
 			<section>
-				<h1>Sum Of Two Numbers</h1>
-				<div id="sum-display"></div>
+				<h1 class="display-title">Product Of Two Numbers</h1>
+				<div class="display">
+					<p>Product is:</p>
+					<p id="product-display">0</p>
+				</div>
 				<form action="#">
 					<input
 						id="num1"
 						type="number"
-						placeholder="Add Input 1"
+						placeholder="Enter value 1"
 						required
 					/><br />
 					<input
 						id="num2"
 						type="number"
-						placeholder="Add Input 2"
+						placeholder="Enter value 2"
 						required
 					/><br />
-					<button id="sum" type="submit">Calculate</button>
+					<button id="product" type="button">Calculate</button>
 				</form>
 			</section>
-			<!-- <section id="About">
-				<h1>This is the about us page</h1>
-				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quasi
-					amet quae aut odio quas atque. Omnis, quisquam cum, quis, similique
-					velit perferendis eligendi inventore laudantium iusto ipsa iste aut?
-				</p>
-			</section> -->
 			<footer>
 				<div class="footer-ul">
 					<div class="footer-logo">
@@ -66,8 +74,12 @@
 						>Contact Us</a
 					>
 				</div>
-				<h2>Designed By Charles Chukwunweike Eneh For Lloydant Intern Test.</h2>
+				<h2>
+					Designed by charleschukwunweikeeneh@gmail.com for Lloydant Intern
+					Test.
+				</h2>
 			</footer>
 		</main>
+		<script src="index.js"></script>
 	</body>
 </html>
