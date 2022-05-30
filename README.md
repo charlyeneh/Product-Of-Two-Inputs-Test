@@ -25,6 +25,8 @@ It also has a simple function written with vanilla JavaScript that takes an inpu
 
 [Live Demo Link](https://charlyeneh.github.io/Product-Of-Two-Inputs-Test/)
 
+[Github Repo Link](https://github.com/charlyeneh/Product-Of-Two-Inputs-Test)
+
 ## Getting Started
 
 Clone the Repo and power on the live-server to view the page or click on the live demo link.
