@@ -293,6 +293,9 @@ footer h2 {
 		top: 8vh;
 		height: 30vh;
 	}
+	.footer-ul > * {
+		font-size: 8px;
+	}
 }
 
 @media screen and (max-width: 375px) {
@@ -300,10 +303,16 @@ footer h2 {
 		top: 11vh;
 		height: 30vh;
 	}
+	.footer-ul > * {
+		font-size: 8px;
+	}
 }
 
 @media screen and (max-width: 360px) {
 	.nav-links {
 		top: 10vh;
+	}
+	.footer-ul > * {
+		font-size: 8px;
 	}
 }
