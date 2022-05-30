@@ -2,19 +2,18 @@
 const calculateProduct = document.getElementById('product');
 
 calculateProduct.addEventListener('click', () => {
-	let x = document.getElementById('num1').value;
-	let y = document.getElementById('num2').value;
-	const product = Number(x) * Number(y);
+	let input1 = document.getElementById('num1').value;
+	let input2 = document.getElementById('num2').value;
+	const product = Number(input1) * Number(input2);
 
 	document.getElementById('product-display').innerHTML = product;
-
-	document.getElementById('num1').value.reset();
-	document.getElementById('num2').value.reset();
 });
 
+// mobile navbar toggler
 const navSlide = () => {
 	const hamburger = document.querySelector('.hamburger');
 	const nav = document.querySelector('.nav-links');
+	const section = document.querySelector('section');
 
 	hamburger.addEventListener('click', () => {
 		const hide = document.querySelector('.nav-hide');
@@ -25,6 +24,10 @@ const navSlide = () => {
 			hide.style.display = 'flex';
 			nav.style.display = 'flex';
 		}
+
+		section.classList.toggle('section2');
+
+		hamburger.classList.toggle('toggle');
 	});
 };
 
