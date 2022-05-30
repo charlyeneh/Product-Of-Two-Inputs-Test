@@ -23,13 +23,11 @@ It also has a simple function written with vanilla JavaScript that takes an inpu
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://charlyeneh.github.io/Awesome-books-ES6/)
+[Live Demo Link](https://charlyeneh.github.io/Product-Of-Two-Inputs-Test/)
 
 ## Getting Started
 
 Clone the Repo and power on the live-server to view the page or click on the live demo link.
-
-To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
@@ -66,7 +64,7 @@ This App was deployed using the github apps deployment.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/charlyeneh/Awesome-books-ES6/issues/).
+Feel free to check the [issues page](https://github.com/charlyeneh/Product-Of-Two-Inputs-Test/issues).
 
 ## Show your support
 
