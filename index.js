@@ -10,7 +10,10 @@ calculateProduct.addEventListener('click', () => {
 	}
 	const product = Number(input1) * Number(input2);
 
-	return (document.getElementById('product-display').innerHTML = product);
+	document.getElementById('product-display').innerHTML = product;
+
+	document.getElementById('num1').value = '';
+	document.getElementById('num2').value = '';
 });
 
 // mobile navbar toggler
