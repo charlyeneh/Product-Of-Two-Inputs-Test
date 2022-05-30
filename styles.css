@@ -49,7 +49,7 @@ a {
 
 a:hover {
 	text-decoration: underline;
-	color: #5196d0;
+	color: white;
 }
 
 .hamburger {
@@ -114,6 +114,7 @@ h1 {
 	text-align: center;
 	font-size: 40px;
 	padding: 0.3rem 0;
+	overflow: auto;
 }
 
 form {
@@ -274,6 +275,7 @@ footer h2 {
 	footer {
 		height: 100px;
 		padding: 10px;
+		margin-bottom: 0%;
 	}
 
 	.footer-logo img {

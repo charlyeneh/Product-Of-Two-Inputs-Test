@@ -4,9 +4,13 @@ const calculateProduct = document.getElementById('product');
 calculateProduct.addEventListener('click', () => {
 	let input1 = document.getElementById('num1').value;
 	let input2 = document.getElementById('num2').value;
+	const numbers = /^[0-9]+$/;
+	if (!input1.match(numbers) && !input2.match(numbers)) {
+		alert('Please input numeric characters only');
+	}
 	const product = Number(input1) * Number(input2);
 
-	document.getElementById('product-display').innerHTML = product;
+	return (document.getElementById('product-display').innerHTML = product);
 });
 
 // mobile navbar toggler
