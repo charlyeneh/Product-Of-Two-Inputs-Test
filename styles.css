@@ -263,6 +263,10 @@ footer h2 {
 		padding: 0.3rem 0;
 	}
 
+	.display-title {
+		font-size: 14px;
+	}
+
 	input {
 		font-size: 15px;
 	}
