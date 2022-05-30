@@ -1,0 +1,23 @@
+{
+	"name": "product-of-two-inputs-test",
+	"version": "1.0.0",
+	"description": "![screenshot](./images/desktop.png) ![screenshot](./images/mobile.png)",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/charlyeneh/Product-Of-Two-Inputs-Test.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/charlyeneh/Product-Of-Two-Inputs-Test/issues"
+	},
+	"homepage": "https://github.com/charlyeneh/Product-Of-Two-Inputs-Test#readme",
+	"devDependencies": {
+		"jest": "^28.1.0"
+	}
+}
